@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
       - uses: sonarsource/sonarqube-scan-action@master
         env:
-          SONAR_TOKEN: sqa_7f11ed342e2306f7c659d6293677d5349bf6c2e2
+          SONAR_TOKEN: sqa_97c3d36efff9037d466374f441690d820b1351ef
           SONAR_HOST_URL: http://localhost:9000
           #SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           #SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
